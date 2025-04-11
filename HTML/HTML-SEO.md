@@ -39,11 +39,11 @@ Page title | Site name ( | )
 Page title : Site name ( : )
 ```
 
-![image.png](attachment:46a9eb57-e05d-416f-acde-0376dc4f3629:image.png)
+![image](https://github.com/user-attachments/assets/e55254b0-f290-4cec-81e9-529e29694068)
 
-![image.png](attachment:5d70380e-bfa4-46ed-afe4-eb9c61238a42:image.png)
+![image](https://github.com/user-attachments/assets/bffc6396-20e1-4f4e-ba0a-afbc3c004853)
 
-![image.png](attachment:de6673a8-e068-4fa1-8d8c-c1fb1f802f95:image.png)
+![image](https://github.com/user-attachments/assets/6e6d5ee2-cb3a-43e8-8ff6-17d8dfef60fa)
 
 > 최근 검색 엔진들은 JavaScript에 의해 동적으로 생성한 페이지 타이틀도 모두 잘 크롤링 하고 있다.
 
@@ -88,7 +88,8 @@ Page title : Site name ( : )
 
 ### 구글에 실제로 검색되는 화면
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f67a0d-cdfb-41bc-ba0a-5aa0b4aaac8a/1f78f374-6278-4db8-a3bb-f837e26758bb/image.png)
+![image](https://github.com/user-attachments/assets/90ccc5e2-9dd5-4bdc-ba55-b8efea6cd2c5)
+
 
 ### 요약
 
