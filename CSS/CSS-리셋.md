@@ -481,3 +481,45 @@ reset.css는 기존의 브라우저 별 스타일을 완전히 백지 상태로 
 normalize.css는 기존의 브라우저 별 스타일을 모두 리셋시키는 방법이 아닌, 이를 유지하고 이용하려는 스타일 시트입니다.
 
 </aside>
+
+<br/>
+<br/>
+
+# ➕ 벤더 프리픽스 (Vendor Prefix)
+
+브라우저 제조사(벤더)들이 표준화되지 않은 CSS 속성이나 기능을 실험적으로 제공할 때, 이를 일반 속성과 구분하기 위해 앞에 특정 접두어(prefix)를 붙여 사용하는 방식
+
+예를 들어 `transform` 속성은 초기에는 다음과 같은 벤더 프리픽스를 붙여서 사용
+
+```css
+-webkit-transform: rotate(45deg); /* Chrome, Safari */
+-moz-transform: rotate(45deg);    /* Firefox */
+-o-transform: rotate(45deg);      /* Opera */
+-ms-transform: rotate(45deg);     /* Internet Explorer */
+transform: rotate(45deg);         /* 표준 */
+```
+
+### 사용 목적
+
+- 표준이 되기 전 실험적인 기능을 각 브라우저에서 미리 제공할 수 있도록 하기 위해 사용
+- 크로스 브라우징 문제를 해결하고 다양한 브라우저에서 동일한 스타일을 보장하기 위함
+
+> 현재는 최신 브라우저들이 표준 속성을 잘 지원
+하지만 여전히 `-webkit-line-clamp`, `-webkit-appearance` 등 일부 속성은 접두어가 필요
+> 
+
+### 요약
+
+- 벤더 프리픽스는 기능(속성)의 호환성을 맞추기 위한 방법
+
+<aside>
+
+## ✅ 벤더 프리픽스란?
+
+벤더 프리픽스(Vendor Prefix)는 브라우저 제조사들이 표준화되지 않은 CSS 속성을 실험적으로 제공할 때 붙이는 접두어입니다.
+
+예를 들어 `transform`이나 `flex`처럼 초기에 표준이 아니었던 속성들을 브라우저마다 다르게 지원했기 때문에, `-webkit-`, `-moz-` 같은 접두어를 붙여 사용해야 했습니다.
+
+이는 브라우저 간 스타일이나 동작 차이를 줄이기 위한 **크로스 브라우징 대응 방식** 중 하나이고, 현재는 대부분의 속성이 표준화되었지만 여전히 `-webkit-line-clamp` 같은 일부 속성은 접두어가 필요합니다.
+
+</aside>
