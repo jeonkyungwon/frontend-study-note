@@ -16,7 +16,7 @@
 }
 ```
 
-1. 유동적인 단위 사용 : 고정 px 대신 `%, vw, vh, rem, em` 등의 단위를 사용하며 부모 요소나 뷰포트에 따라 유연하게 크기 조절 가능
+2. 유동적인 단위 사용 : 고정 px 대신 `%, vw, vh, rem, em` 등의 단위를 사용하며 부모 요소나 뷰포트에 따라 유연하게 크기 조절 가능
 
 ```css
 width: 100%; /* 부모 기준 */
@@ -65,19 +65,23 @@ font-size: 1.2rem; /* 루트 요소 기준 */
 
 > em은 중첩 시 곱셈
 
-1. Flexible Layout (Flexbox, Grid) : Flexbox와 CSS Grid를 사용하면 레이아웃 자체가 유연하게 움직이도록 설계 가능
+3. Flexible Layout (Flexbox, Grid) : Flexbox와 CSS Grid를 사용하면 레이아웃 자체가 유연하게 움직이도록 설계 가능
 
 ```css
 display: flex;
 flex-wrap: wrap;
 ```
 
-1. 모바일 우선 접근 : 기본 스타일을 모바일 기준으로 작성하고, 더 큰 화면에 대해 미디어 쿼리로 스타일을 확장
-2. CSS Framework 사용 : Tailwind CSS, Bootstrap 등에서 반응형 유틸리티 클래스 제공
+4. 모바일 우선 접근 : 기본 스타일을 모바일 기준으로 작성하고, 더 큰 화면에 대해 미디어 쿼리로 스타일을 확장
+5. CSS Framework 사용 : Tailwind CSS, Bootstrap 등에서 반응형 유틸리티 클래스 제공
 
 ```css
 <div class="text-base md:text-lg lg:text-xl">텍스트</div>
 ```
+
+<br/>
+
+### 면접 답변
 
 <aside>
 
