@@ -28,25 +28,22 @@ React는 상호작용이 많은 UI를 만들 때 생기는 어려움을 줄여�
 
 리액트는 JSX라고 하는 JavaScript를 확장한 문법을 사용한다.
 
-- JSX 예시
+**※ JSX란?**
+
+> React 라이브러리에서 사용하는 문법으로 JavsScript를 확장한 문법이다.
+> React 엘리먼트를 생성한다. 즉, React에서 엘리먼트를 만들 때 사용하는 React.createElement의 간편 표현식이기도 하다.
+> React는 JSX 사용이 필수가 아니지만, JavaScript 코드 안에서 UI 관련 작업을 할 때 시각적으로 더 도움이 된다. 또한 React가 도움이 되는 에러 및 경고 메시지를 표시할 수 있게 해준다.
+
+- JSX 표현식
 
 ```jsx
-function getGreeting(user) {
-  if (user) {
-    return <h1>Hello, {formatName(user)}!</h1>;
-  }
-  return <h1>Hello, Stranger.</h1>;
-}
+const name = "Jean Kyungwon";
+const element = <h1> Hello, {name}</h1>;
+
+ReactDOM.render(element, document.getElementById("root"));
 ```
 
-```jsx
-const element = (
-  <div>
-    <h1>Hello!</h1>
-    <h2>Good to see you here.</h2>
-  </div>
-);
-```
+> JSX의 중괄호 안에는 유효한 모든 JavaScript 표현식을 넣을 수 있다.
 
 ### Virtual DOM 사용
 
@@ -86,5 +83,19 @@ React는 페이스북에서 만든 JavaScript UI 라이브러리입니다.
 선언형, 컴포넌트 기반 구조를 가지고 있으며, Virtual DOM을 사용해 빠르고 효율적인 화면 업데이트를 지원합니다.
 
 장점으로는 SSR/CSR 지원과 코드 재사용성이 있고, 단점으로는 View 외 기능은 직접 구현해야 하고 초기 렌더링이 느릴 수 있습니다.
+
+</aside>
+
+<hr/>
+
+<aside>
+
+### ✅ JSX란?
+
+JSX는 React 라이브러리에서 사용하는 문법으로 JavsScript를 확장한 문법입니다.
+
+JavaScript 코드 안에 HTML 태그를 작성할 수 있게 해주며, UI 구조를 더 직관적이고 시각적으로 표현할 수 있어서 개발 생산성과 유지보성이 향상됩니다.
+
+다만 React에서 필수는 아니고, JSX 없이도 사용할 수 있습니다.
 
 </aside>
